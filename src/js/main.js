@@ -1,1 +1,1 @@
-console.log("hello");
+document.body.textContent = 'Так лучше '
