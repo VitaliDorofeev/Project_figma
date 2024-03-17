@@ -1,0 +1,16 @@
+
+:root {
+  --color-background-info: #484283;
+  --color-background-main: white;
+  --color-button-deafuilt: #F14F4F;
+  --color-button-hover: #CC4949;
+  --color-button-active: #8C2828;
+  --color-button-gray-deafuilt: #444B58;
+  --color-button-gray-hover: #31343C; 
+  --color-button-gray-active: #8C2828; 
+  --color-text-for-white-background: #444B58;
+  --color-text-small: #DBBBA9;
+  --color-background-question: #FFF4EE;
+  --color-gray: #B2B5BB;
+}
+
