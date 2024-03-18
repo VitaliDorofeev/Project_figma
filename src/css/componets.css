@@ -2,12 +2,79 @@
     font-family: 'Roboto Slab';
 }
 
-.btn__default {
-    background-color: var(--color-button-deafuilt);
+/* Обёртка */
+.wrapper {
+  max-width: 1180px+(70px*2);
+  padding: 0 70px;
+}
+
+/* Обычная кнопка */
+.btn-default {
+  padding: 22px 47px;
+  border: 0 ;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-background-main);
+  background-color: var(--color-button-deafuilt);
+  transition: background-color .3s;
+}
+
+.btn-default:hover {
+  background-color: var(--color-button-hover);
+}
+
+.btn-default:active {
+  background-color: var(--color-button-active);
+}
+
+/* Кнопка прозрачная серая */
+.btn-default_transparent {
+  color: var(--color-text-for-white-background);
+  border: 1px solid var(--color-gray);
+  background-color: transparent;
+  transition: background-color .3s;
+}
+
+.btn-default_transparent:hover {
+  color: white;
+  background-color: var(--color-button-gray-hover);
+}
+
+.btn-default_transparent:active {
+  color: white;
+  background-color: var(--color-button-active);
+}
+
+/* Кнопка серая */
+.btn-default_gray {
+  background-color: var(--color-button-gray-deafuilt);
+}
+.btn-default_gray:hover {
+  background-color: var(--color-button-gray-hover);
+}
+
+.btn-default_gray:active {
+  background-color: var(--color-button-active);
+}
+
+ /* Стили для чекбокса */
+.checkbox-container {
+  padding: 10px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 
 
-
-.btn__default-text {
-    font-size: large;
+.checkbox:default {
+  background-color: black;
 }
+
