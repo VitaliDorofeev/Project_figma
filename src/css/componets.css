@@ -1,3 +1,7 @@
 *, *::after, *::before {
     font-family: 'Roboto Slab';
 }
+
+.btn__default {
+    background-color: var(--color-button-deafuilt);
+}
