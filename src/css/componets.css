@@ -1,3 +1,7 @@
 *, *::after, *::before {
     font-family: 'Roboto Slab';
 }
+
+.wrapper {
+  width: 900px;
+}
