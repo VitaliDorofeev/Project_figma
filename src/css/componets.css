@@ -5,3 +5,7 @@
 .btn__default {
     background-color: var(--color-button-deafuilt);
 }
+
+.wrapper {
+  max-width: 900px;
+}
