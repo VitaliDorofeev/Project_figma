@@ -1,3 +1,17 @@
 @import "fonts.css";
 @import "componets";
-@import 'normalize.css'
+@import 'normalize.css';
+@import 'root.css';
+@import 'header.css';
+@import 'catalog.css';
+@import 'about.css';
+@import 'shoe_selection.css';
+@import 'our_team.css';
+@import 'pop_questions.css';
+@import 'footer.css';
+@import 'contacts.css';
+@import 'callback.css';
+
+
+
+
