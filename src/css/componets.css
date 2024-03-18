@@ -6,6 +6,11 @@
     background-color: var(--color-button-deafuilt);
 }
 
+<<<<<<< HEAD
 .wrapper {
   max-width: 900px;
+=======
+.btn__default-text {
+    font-size: large;
+>>>>>>> 66d40a9dcb74d1ab5dc92250af4cc83b7f9123db
 }
