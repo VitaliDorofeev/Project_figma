@@ -58,23 +58,53 @@
 }
 
  /* Стили для чекбокса */
-.checkbox-container {
-  padding: 10px;
-  background-color: aqua;
+.label {
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+
 }
 
 .checkbox {
+  display: none;
   margin: 0;
   width: 24px;
   height: 24px;
   cursor: pointer;
 }
+.box {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--color-text-small);
+  border-radius: 4px;
+}
 
+.box::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: block;
+  background-image: url(/src/img/checkbox.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  transition: .2s;
+}
 
-.checkbox:default {
-  background-color: black;
+.checkbox:checked + .box::before {
+  opacity: 1;
+}
+
+.text-box {
+  font-size: 16px;
+  line-height: 24px;
 }
 
