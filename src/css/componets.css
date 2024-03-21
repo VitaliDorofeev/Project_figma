@@ -137,6 +137,7 @@ position: absolute;
 }
 
 .disabled::before {
+  position: absolute;
   font-size: 12px;
   width: 95px;
   height: 44px;
