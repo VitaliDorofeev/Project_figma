@@ -1,17 +1,16 @@
-@import url("fonts.css");
-@import url("componets");
-@import url('normalize.css');
-@import url('root.css');
-@import url('header.css');
-@import url('catalog.css');
-@import url('about.css');
-@import url('shoe_selection.css');
-@import url('our_team.css');
-@import url('pop_questions.css');
-@import url('footer.css');
-@import url('contacts.css');
-@import url('callback.css');
-@import url('./components/index.css')
+@import url("../structure/fonts.css");
+@import url('../structure/normalize.css');
+@import url('../structure/root.css');
+@import url('../structure/header.css');
+@import url('../structure/catalog.css');
+@import url('../structure/about.css');
+@import url('../structure/shoe_selection.css');
+@import url('../structure/our_team.css');
+@import url('../structure/pop_questions.css');
+@import url('../structure/footer.css');
+@import url('../structure/contacts.css');
+@import url('../structure/callback.css');
+@import url('../components/index.css')
 
 
 
