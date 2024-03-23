@@ -1,0 +1,17 @@
+@import url("fonts.css");
+@import url("componets");
+@import url('normalize.css');
+@import url('root.css');
+@import url('header.css');
+@import url('catalog.css');
+@import url('about.css');
+@import url('shoe_selection.css');
+@import url('our_team.css');
+@import url('pop_questions.css');
+@import url('footer.css');
+@import url('contacts.css');
+@import url('callback.css');
+@import url('./components/index.css')
+
+
+

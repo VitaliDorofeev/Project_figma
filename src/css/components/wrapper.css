@@ -1,0 +1,5 @@
+/* Обёртка */
+.wrapper {
+  max-width: calc(1180px + (70px*2));
+  padding: 0 70px;
+}

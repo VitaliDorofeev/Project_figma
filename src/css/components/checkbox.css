@@ -1,0 +1,51 @@
+/* Стили для чекбокса */
+.label {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: none;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border: 1px solid var(--color-text-small);
+  border-radius: 4px;
+}
+
+.box::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: '';
+  background-image: url("/src/img/checkbox.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: 0.2s;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox:checked + .box::before {
+  opacity: 1;
+}
+
+.text-box {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+}
