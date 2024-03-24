@@ -1,26 +1,31 @@
 .wrapper {
-  margin: 0 auto;
   max-width: 1180px;
+  margin: 0 auto;
 }
+
 .header {
   background-color: var(--color-background-info);
 }
+
 .header__nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding-top: 20px;
 }
+
 .header__logo-text {
-  color: white;
   font-size: 30px;
   line-height: 30px;
+  color: white;
 }
+
 .header__list {
   display: flex;
   gap: 40px;
   font-size: 14px;
 }
+
 .header__list-menu {
-  color: rgba(255, 255, 255, 0.806);
+  color: rgb(255 255 255 / 80.6%);
 }

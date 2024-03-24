@@ -1,0 +1,37 @@
+/* Подсказка */
+.clue {
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  width: 64px;
+  height: 32px;
+  border: 1px solid var(--color-gray);
+  border-radius: 4px;
+  color: var(--color-button-gray-deafuilt);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clue:hover {
+  border: 1px solid var(--color-button-deafuilt);
+}
+
+/* Подсказка отсудствует товар */
+.disabled {
+  position: absolute;
+}
+
+.disabled:hover {
+  border-color: #b2b5bb86;
+}
+
+.disabled::before {
+  font-size: 12px;
+  width: 95px;
+  height: 44px;
+  content: attr(data-disabled);
+  position: absolute;
+  color: white;
+
+  background-color: var(--color-button-gray-deafuilt);
+}

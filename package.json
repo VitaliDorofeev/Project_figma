@@ -18,10 +18,16 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.2.5",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^16.2.1",
+    "stylelint-config-recess-order": "^5.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4",
     "vite": "^5.1.6",
     "vite-plugin-handlebars": "^2.0.0"
   },
   "dependencies": {
+    "@csstools/normalize.css": "^12.1.1",
     "normalize.css": "^8.0.1"
   }
 }

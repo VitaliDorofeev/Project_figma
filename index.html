@@ -3,23 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="/src/fonts/roboto-slab-v34-cyrillic_latin-700.woff2"
-      as="font"
-      crossorigin
-    />
-    <link
-      rel="stylesheet"
-      href="/src/fonts/roboto-slab-v34-cyrillic_latin-regular.woff2 "
-      as="font"
-      crossorigin
-    />
+    <link rel="stylesheet" href="/src/css/main/main.css" />
+    <link rel="stylesheet" href="./src/css/structure/fonts.css">
     <title>SneakMax</title>
   </head>
   <body>
     {{> header }}
+    <main>
+      {{> catalog }}
+      {{> about }}
+      {{> shoe_selection }}
+      {{> our_team }}
+      {{> pop_questions }}
+      {{> contacts }}
+      {{> callback }}
+    </main>
+    {{> footer }}
     <script type="module" src="src/js/main.js"></script>
   </body>
 </html>
